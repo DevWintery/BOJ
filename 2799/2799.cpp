@@ -22,11 +22,8 @@ int main()
     answer.insert( ::make_pair("************....", 0) );
     answer.insert( ::make_pair("****************", 0) );
 
-
     int M, N;
     cin >> M >> N;
-
-    vector<string> v(M * N);
 
     //첫 줄은 #으로 이루어져있으므로 스킵
     string str;
