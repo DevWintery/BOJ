@@ -36,7 +36,7 @@ int main()
         {
             if(mid < lecture[i])
             {
-                cnt = M + 1;
+                cnt = M + 1; // i 번쨰 강의가 크기보다 크면 아예 녹화가 불가능하므로 바로 L을 늘린다.
                 break;
             }
             
