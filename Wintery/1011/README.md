@@ -14,6 +14,9 @@
 각 테스트 케이스에 대해 x지점으로부터 y지점까지 정확히 도달하는데 필요한 최소한의 공간이동 장치 작동 횟수를 출력한다.
 
 # 문제 풀이
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNwB5p%2FbtrbgnFhOYD%2FQ5XE5XY9SzltEhy2evdzM0%2Fimg.png)
+![alt text](image.png)
 
 위의 표를 보면 제곱근이 제곱근의 반올림보다 작거나 같을 때 `제곱근의 반올림 * 2 - 1`만큼 이동하고 제곱근의 반올림이 제곱근 보다 클 때 `제곱근의 반올림 * 2`만큼 이동하는것을 볼 수 있다.
+
+# TIP
+수학문제는 항상 일정 수준까지 직접 계산을 하며 풀어보는것이 규칙을 찾기 유리하다.
