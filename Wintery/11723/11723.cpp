@@ -15,11 +15,6 @@ int main()
 
     unordered_map<int, bool> map;
 
-    for(int i = 1; i <= 20; ++i)
-    {
-        map[i] = false;
-    }
-
     int M;
     cin >> M;
 
@@ -51,7 +46,7 @@ int main()
         }
         else if(str == "check")
         {
-            cout << (map[x] ? 1 : 0) << '\n';
+            cout << map[x] << '\n';
         }
         else if(str == "remove")
         {
