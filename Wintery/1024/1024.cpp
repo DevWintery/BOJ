@@ -17,6 +17,7 @@ int main()
 
     for(int length = L; length <= 100; ++length)
     {
+        //합 = (첫 항 + 마지막 항) * 항의 개수 / 2
         // N = (start + (start + length - 1)) * length / 2
         // 2N = (2*start + length - 1) * length
         // 2N = 2*start*length + length^2 - length

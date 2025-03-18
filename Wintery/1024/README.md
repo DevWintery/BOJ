@@ -11,6 +11,7 @@ N과 L이 주어질 때, 합이 N이면서, 길이가 적어도 L인 가장 짧�
 등차수열의 합 공식은 $합 = (첫 항 + 마지막 항) * 항의 개수 / 2$ 이다.
 
 이를 코드로 전개하면
+
 1. `N = (start + (start + length - 1)) * length / 2`
 
 2. `2N = (2*start + length - 1) * length`
@@ -21,3 +22,6 @@ N과 L이 주어질 때, 합이 N이면서, 길이가 적어도 L인 가장 짧�
 
 5. `start = (2N - length^2 + length) / (2*length)`
 
+이렇게 된다.
+
+start만 구하면 되므로 start가 조건에 맞으면 start 부터 length 까지 출력하면된다.
