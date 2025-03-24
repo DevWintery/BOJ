@@ -48,7 +48,7 @@ int main()
     }
 
     // 윤년 여부
-    bool bIsLeapYear = ((Date.Year % 400 == 0) || (Date.Year % 4 == 0)) && (Date.Year % 100 != 0);
+    bool bIsLeapYear = (Date.Year % 400 == 0) || ((Date.Year % 4 == 0) && (Date.Year % 100 != 0));
 
     int Month = 0;
     auto Iterator = MonthMap.find(Date.Month);
