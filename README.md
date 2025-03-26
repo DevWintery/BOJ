@@ -5,7 +5,7 @@
 
 ## 👥 Contributors
 - **Wintery**
-- **Mandu**
+- **Minji**
   
 ## 🎯 목표
 - 꾸준히 알고리즘 문제 풀이
@@ -29,7 +29,7 @@ BOJ/
 │       ├── 2000.cpp
 │       └── README.md
 │
-└── Mandu/
+└── Minji/
 │   ├── 1000/
 │   │   ├── 1000.cpp
 │   │   └── README.md
@@ -48,7 +48,7 @@ BOJ/
 ### Wintery
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=ntf7595)](https://solved.ac/ntf7595)
 
-### Mandu
+### Minji
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=mmj0426)](https://solved.ac/mmj0426)
 
 
