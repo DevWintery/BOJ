@@ -67,6 +67,7 @@
         "ranges": "cpp",
         "span": "cpp",
         "queue": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "stack": "cpp"
     }
 }
