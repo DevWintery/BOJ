@@ -16,6 +16,27 @@
 - 매일 최소 1문제 이상 풀기
 - 풀이 방법과 접근 로직 공유
 
+## 📝 문제 생성 방법
+각자의 폴더에서 create_problem.bat 스크립트를 실행합니다:
+```
+cd BOJ\Wintery
+create_problem.bat 1000
+```
+또는
+```
+cd BOJ\Minji
+create_problem.bat 1000
+```
+
+스크립트는 다음 작업을 수행합니다:
+
+- 문제 번호로 새 폴더 생성
+- 공통 템플릿에서 소스 코드 파일 복사
+- 템플릿 README.md 파일 생성
+- VS Code에서 파일 자동 열기
+
+생성된 환경에서 문제를 풀고 README.md에 풀이 과정을 기록합니다.
+
 ## 📂 저장소 구조
 ```
 BOJ/
