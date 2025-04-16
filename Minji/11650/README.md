@@ -17,4 +17,24 @@
 ------------------------------------------------------------
 
 # 풀이
-- 정렬 문제이다. 별도로 구현하지 않고 사용할 수 있는 자료구조를 사용하여 풀어보았다.
+- 정렬 문제이다.
+
+```cpp
+std::sort(시작 iterator, 끝 iterator, [옵션: 비교 함수]);
+```
+이기 때문에 비교 함수를 규칙에 맞게 구현해주면 된다.
+
+```cpp
+
+vector<pair<int, int>> Points;
+
+bool Compare(const pair<int, int>& A, const pair<int,int>& B)
+{
+    if(A.first == B.first)
+    {
+        return A.second < B.second;
+    }
+    return A.first < B.first;
+}
+
+```

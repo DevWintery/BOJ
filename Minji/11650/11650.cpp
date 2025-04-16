@@ -6,8 +6,16 @@
 
 using namespace std;
 
-map<int, vector<int>> Points;
-set<int> XPoints;
+vector<pair<int, int>> Points;
+
+bool Compare(const pair<int, int>& A, const pair<int,int>& B)
+{
+    if(A.first == B.first)
+    {
+        return A.second < B.second;
+    }
+    return A.first < B.first;
+}
 
 int main()
 {
@@ -22,22 +30,14 @@ int main()
     {
         pair<int,int> Point;
         cin >> Point.first >> Point.second;
-        Points[Point.first].push_back(Point.second);
-        XPoints.emplace(Point.first);
+        Points.push_back(Point);
     }
-    
-    for(int X : XPoints)
+
+    sort(Points.begin(), Points.end());
+
+    for(pair<int,int> Point : Points)
     {
-        auto It = Points.find(X);
-        if(It != Points.end())
-        {
-            sort(It->second.begin(), It->second.end());
-            
-            for(int Y : It->second)
-            {
-                cout << X << " " << Y << "\n";
-            }
-        }
+        cout << Point.first << " " << Point.second << "\n";
     }
 
     return 0;
